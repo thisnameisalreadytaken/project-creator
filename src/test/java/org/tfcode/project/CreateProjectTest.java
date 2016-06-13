@@ -8,6 +8,7 @@ public class CreateProjectTest {
     @Test
     public void canConstructCreateProject() {
         CreateProject app = new CreateProject();
+        System.out.println("Test ............");
         assertEquals(app.getClass().toString(),CreateProject.class.toString());
     }
 }
